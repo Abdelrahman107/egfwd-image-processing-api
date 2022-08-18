@@ -1,0 +1,22 @@
+npm install --save-dev prettier
+echo {}> .prettierrc.json
+ 
+
+npm i --save-dev eslint
+npm i --save-dev eslint-config-prettier
+npm i --save-dev eslint-plugin-prettier
+ 
+npm i typescript --save-dev
+npx tsc --init 
+npm i --save-dev typescript
+npm i --save-dev ts-node 
+npm i --save-dev @types/node
+npm i express
+npm i --save--dev@types/express
+npm i jasmine 
+npm i jasmine-spec-reporter
+npm i --save-dev @types/jasmine
+npm i sharp
+npm i --save-dev @types/sharp
+npm i express-validator
+npm i --save-dev @types/sharp
