@@ -38,8 +38,7 @@ imageResizer.get('/', customExpressValidator_1.default, (req, res) => {
     else {
         if (fs_1.default.existsSync(imageDestination) && fs_1.default.existsSync(imageSource)) {
             res.sendFile(imageDestination);
-            // eslint-disable-next-line no-undef
-            //
+            // image has been cached out
         }
         else {
             (0, sharp_1.default)(imageSource)
